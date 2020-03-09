@@ -41,8 +41,8 @@ background: '/img/posts/webdev.jpg'
   browser and type: localhost:4000</p>
 
 <p>Congratulations! You just created your first website. From here you can write your own blog posts,
-  change to a different theme, change the layout, etc. I will include a more in-depth tutorial for
-  messing around with all these different options.</p>
+  change to a different theme, change the layout, etc. I will include a more in-depth tutorial at the
+  end for messing around with all these different options.</p>
 
 <p>When I created my first site utilizing this method, I was quickly bothered by the mundane default
   theme, minima. However, while trying to convert my existing website into another theme, I ran
@@ -54,5 +54,26 @@ background: '/img/posts/webdev.jpg'
   fork the theme you want from GitHub. For this website, I forked BlackrockDigital’s
   <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">startbootstrap-clean-blog-jekyll</a>.
   After you fork the repository you want, delete the gh-pages branch.</p>
+
+<img class="img-fluid" src="/img/posts/jekyll_tutorial/deleteGHPages.png">
+
+<p>Next, create a new branch called gh-pages and update the default branch from master to
+  gh-pages. We must delete their gh-pages branch because they have a custom domain name
+  that will not work for us.</p>
+
+<img class="img-fluid" src="/img/posts/jekyll_tutorial/updateDefault.png">
+
+<p>Now we can go to our GitHub pages site in Settings to view our hosted gh-page.</p>
+
+<img class="img-fluid" src="/img/posts/jekyll_tutorial/githubPages.png">
+
+<p>If you receive a problem building your site due to the use to relative_permalinks,
+  all you have to do is delete the line: relative_permalinks: true from the config.yml file.</p>
+
+<p>Finally, you are basically done. From here, you can edit the config.yml file to edit the main
+  information of your webpage, or you can add your own blog posts in the _posts folder. I
+  suggest heading over to
+  <a href="https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB">Mark Dane's youtube channel</a>
+  for more detailed tutorials on editing your website.</p>
 
 <p>Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
