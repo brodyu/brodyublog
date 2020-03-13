@@ -1,6 +1,6 @@
 title:              Brody Uehara
 email:              brodyuehara@gmail.com
-description:        Computer Science Student at the University of Hawaii. Current AI Research Intern at Oceanit Labratories. Incoming Sales & Trading Intern at Deutsche Bank
+description:        Computer Science Student at the University of Hawaii. Currently an AI Research Intern at Oceanit Labratories. Incoming Sales & Trading Intern at Deutsche Bank
 author:             Brody Uehara
 baseurl:            "/brodyu"
 url:                ""
@@ -10,7 +10,7 @@ github_username:    brodyu
 linkedin_username:  brodyu
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-160596761-1 # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
