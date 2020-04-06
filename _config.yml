@@ -2,8 +2,8 @@ title:              Brody Uehara
 email:              brodyuehara@gmail.com
 description:        Computer Science Student at the University of Hawaii. Currently an AI Research Intern at Oceanit Labratories. Incoming Sales & Trading Intern at Deutsche Bank
 author:             Brody Uehara
-baseurl:            "/home"
-url:                "buehara.com"
+baseurl:            ""
+url:                "https://buehara.com"
 
 # Social Profiles
 github_username:    brodyu
